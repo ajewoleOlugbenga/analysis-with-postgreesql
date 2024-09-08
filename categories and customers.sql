@@ -1,14 +1,4 @@
-SELECT * FROM categories;
-SELECT * FROM customers;
-INSERT INTO categories (category_name, description) 
-VALUES ('Beverages', 'Soft drinks, coffees, teas, beers, and ales'),
-		('Condiments', 'Sweet and savory sauces, relishes, spreads, and seasonings'),
-		('Confections', 'Desserts, candies, and sweet breads'),
-		('Dairy Products', 'Cheeses'),
-		('Grains/Cereals', 'Breads, crackers, pasta, and cereal'),
-		('Meat/Poultry', 'Prepared meats'),
-		('Produce', 'Dried fruit and bean curd'),
-		('Seafood', 'Seaweed and fish');
+--SELECT * FROM customers;
 CREATE TABLE customers (
 customer_id SERIAL NOT NULL PRIMARY KEY,
 customer_name VARCHAR(255),
